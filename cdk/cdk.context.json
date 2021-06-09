@@ -1,0 +1,51 @@
+{
+  "vpc-provider:account=222869766243:filter.tag:Name=infra-standard-vpc:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0036dc82735dbde43",
+    "vpcCidrBlock": "10.192.128.0/18",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-014be8b52f3b52a6c",
+            "cidr": "10.192.128.0/20",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-08efb4d2031705e0f"
+          },
+          {
+            "subnetId": "subnet-062c657639c01c258",
+            "cidr": "10.192.162.0/28",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-0b0a6758b161994fc"
+          },
+          {
+            "subnetId": "subnet-0e3102658601dc3cd",
+            "cidr": "10.192.160.0/24",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-057959a7b8b0a639b"
+          },
+          {
+            "subnetId": "subnet-0a06f23c9b4b147d5",
+            "cidr": "10.192.144.0/20",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0775e27903f23d145"
+          },
+          {
+            "subnetId": "subnet-0d0f92b6414657b03",
+            "cidr": "10.192.161.0/24",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0bfc15d26310e068b"
+          },
+          {
+            "subnetId": "subnet-05b1f99c0b9bfc1bb",
+            "cidr": "10.192.162.16/28",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-096a37d1a5821c9c3"
+          }
+        ]
+      }
+    ]
+  }
+}

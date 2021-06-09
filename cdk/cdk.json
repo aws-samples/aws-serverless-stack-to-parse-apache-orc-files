@@ -1,0 +1,8 @@
+{
+  "app": "npx ts-node bin/orcParser.ts",
+  "context": {
+    "config": {
+      "stackName": "orcParser"
+    }
+  }
+}
