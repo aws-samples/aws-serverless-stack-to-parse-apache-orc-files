@@ -11,7 +11,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <aws.sdk.version>1.11.817</aws.sdk.version>
+        <aws.sdk.version>1.12.261</aws.sdk.version>
         <aws-java-lambda-core.version>1.2.0</aws-java-lambda-core.version>
         <aws-java-lamba-events.version>2.2.7</aws-java-lamba-events.version>
     </properties>
